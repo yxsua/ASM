@@ -13,7 +13,10 @@
     diagonalMa db 8d
 
     ; Guardar areas y perímetros
-    area dw 0d
+    lado db 7d ;Data Byte de 8 bits
+    area dw 0d ;Data Word de 16 bits
+    cuadrado dd 50d ;Data Double de 32 bits
+
     perimetro dw 0d
 
 .code 
